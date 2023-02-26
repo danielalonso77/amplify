@@ -4,7 +4,7 @@ const alumnosRef = firebase.firestore().collection('alumnos');
 
 // agregarAlumno
 
-alumnosRef.add({
+export const addAlumnos = alumnosRef.add({
     matricula:'IA-0001',
     nombre: 'Juan',
     apellido: 'Perez',
